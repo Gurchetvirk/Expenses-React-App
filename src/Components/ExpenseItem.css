@@ -1,0 +1,38 @@
+.expense-item
+{
+    display: inline-block;
+    border-radius: 1.5rem;
+    background-color:gray;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.expense-item-date
+{
+    font-size: 1.5rem;
+}
+.expense-item-description h2,.expense-item-date
+{
+    float:left;
+    margin: 2rem;
+}
+
+.expense-item-description h2
+{
+    color: white;
+}
+
+.expense-item-description .expense-item-amount
+{
+    border:2px solid white;
+    border-radius: 1rem;
+    float:right;
+    margin-right: .5rem;
+    width:7rem;
+    margin:1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-size: 1.5em;
+}

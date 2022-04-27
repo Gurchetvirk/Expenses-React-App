@@ -1,0 +1,23 @@
+.outer-box
+{
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 1rem;
+    display: flex;
+    align-items: flex-end;
+    background-color: blueviolet;
+    padding-top: .2rem;
+}
+.inner-box
+{
+    background-color: blue;
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+    transition: all 0.3s ease-out;
+}
+label
+{
+    font-size: 1rem;
+    color: black;
+}
