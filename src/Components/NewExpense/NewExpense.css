@@ -1,0 +1,75 @@
+.newexpense-container
+{
+    background-color: mediumpurple;
+    width: 70%;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin:0 auto 3rem auto;
+}
+.text-container, .date-container
+{
+    float: left;
+    margin-left: 1rem;
+}
+.amount-container
+{
+    margin-left: 45rem;
+}
+input
+{
+    border-radius: .2rem;
+    border: none;
+    position: relative;
+}
+
+.text-container input, .date-container input
+{
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+}
+
+.amount-container input{
+    position: relative;
+    top: 2rem;
+    right: 3.7rem;
+}
+
+label
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.date-container
+{
+    margin-top: 4rem;
+}
+
+button{
+    background-color: purple;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    box-shadow: none;  
+    border: none;
+}
+
+.buttons-container > button:first-child
+{
+    background-color: lightgray;
+    color: black;
+    margin:11rem 1rem 0 32rem;
+}
+
+.text-container input, .date-container input,.amount-container input
+{
+    width: 16rem;
+    height: 2rem;
+}
+
+.isolate-btn
+{
+    margin-left: 30rem;
+}
