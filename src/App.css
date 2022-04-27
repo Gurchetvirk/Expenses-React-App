@@ -1,0 +1,19 @@
+.expense-container
+{
+    background-color:black;
+    width: 70%;
+    padding: 3rem 1rem;
+    border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-container
+{
+    background-color: gray;
+}
+
+.error
+{
+    color: white;
+}
